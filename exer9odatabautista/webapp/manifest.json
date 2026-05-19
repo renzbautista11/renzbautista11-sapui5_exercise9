@@ -1,5 +1,5 @@
 {
-  "_version": "1.84.0",
+  "_version": "1.81.0",
   "sap.app": {
     "id": "sapips.training.exer9odatabautista",
     "type": "application",
@@ -12,8 +12,8 @@
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
-      "version": "1.24.0",
-      "toolsId": "6e30a46f-4dc1-4bcb-aede-d91f326eb930"
+      "version": "1.20.2",
+      "toolsId": "0d170fa2-51c6-4ed7-87ca-6fa5ea352085"
     },
     "dataSources": {
       "mainService": {
@@ -46,7 +46,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.148.0",
+      "minUI5Version": "1.144.1",
       "libs": {
         "sap.m": {},
         "sap.ui.core": {}
@@ -107,7 +107,7 @@
     "rootView": {
       "viewName": "sapips.training.exer9odatabautista.view.App",
       "type": "XML",
-      "id": "App",
+      "id": "app",
       "async": true
     }
   }
